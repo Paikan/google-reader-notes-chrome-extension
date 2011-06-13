@@ -1,0 +1,23 @@
+<html>
+<head><title></title></head>
+<script type="text/javascript" src="scripts/options.js"></script>
+<link rel="stylesheet" type="text/css" href="css/options.css"/>
+<body onload="init()">
+  <div id="main">
+    <div>
+      <h1 id="title"></h1>
+      <div class="optionBlock">
+	<label for="share" id="share-label"></label>
+        <input type="checkbox" id="share" onclick="saveDefaultShareStatus(this.checked)"/>
+      </div>
+      <div class="optionBlock">
+	<label for="autosubmit" id="autosubmit-label"></label>
+        <input type="checkbox" id="autosubmit" onclick="saveAutoSubmitStatus(this.checked)"/>
+      </div>
+      <div class="close">
+        <input id="close" type="button" value="Close" onclick="window.close();"/>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+  function executeNoteInReader(tab_id, tab_url) {
+    var action_url = "javascript:if(typeof(_IS_MULTILOGIN_ENABLED)=='undefined'){_IS_MULTILOGIN_ENABLED=false};b=document.body;GR________bookmarklet_domain='http://www.google.com';if(b&&!document.xmlVersion){void(z=document.createElement('script'));void(z.src='http://www.google.com/reader/ui/link-bookmarklet.js');void(b.appendChild(z));}else{}";
+    chrome.tabs.update(tab_id, { url: action_url });
+  }
+
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    executeNoteInReader(tab.id, tab.url);
+  });
+
+  chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
+    if (request.method == "getUserPreferences")
+      sendResponse({
+                     defaultShareStatus: localStorage['defaultShareStatus'],
+                     autoSubmit: localStorage['autoSubmit'],
+                   });
+    else
+      sendResponse({});
+  });
+</script>
+</head>
+</html>

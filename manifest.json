@@ -1,0 +1,26 @@
+{
+   "name": "__MSG_extension_name__",
+   "version": "1.0.0",
+   "description": "__MSG_extension_description__",
+   "permissions": ["tabs", "http://*/*", "https://*/*"],
+   "default_locale": "en",
+   "icons": {
+      "128": "icons/128.png",
+      "64": "icons/64.png",
+      "32": "icons/32.png",
+      "16": "icons/16.png"
+   },
+   "browser_action": {
+      "default_icon": "icons/browser_action.png",
+      "default_title": "__MSG_browser_action_default_title__"
+   },
+   "background_page": "background/background.html",
+   "options_page": "options/options.html",
+   "content_scripts": [
+     {
+       "matches": ["http://www.google.com/reader/link-frame"],
+       "all_frames": true,
+       "js": ["content_scripts/reader-frame-script.js"]
+     }
+   ]
+}
