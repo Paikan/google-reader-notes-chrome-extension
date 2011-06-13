@@ -1,3 +1,9 @@
+2011-06-13 version 1.0.2:
+ * Change name to Google Reader Notes to better be referenced in chrome extensions website
+ * Improve README.txt
+ * Add french translation
+ * Add release script
+
 2011-06-12 version 1.0.1:
  * Change name to Reader Notes to better be referenced in chrome extensions website
  * Fix typo in README.txt

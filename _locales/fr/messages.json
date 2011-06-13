@@ -1,0 +1,20 @@
+{
+   "extension_description": {
+      "message": "Cette extension ajoute un bouton à la barre d'outils qui permet d'ajouter rapidement la page courante à vos notes Google Reader. Cela peut être utile pour partager cette page avec vos amis ou tout simplement pour la lire plus tard (le comportement par défaut est configurable). Ajouter des notes à Google Reader est maintenant accessible en un clic de souris (le formulaire peut en effet être soumis directement, ce comportement est également configurable)."
+   },
+   "extension_name": {
+      "message": "Google Reader Notes"
+   },
+   "browser_action_default_title": {
+      "message": "Ajouter une note Google Reader (partager, lire plus tard...)"
+   },
+   "options_title": {
+      "message": "Google Reader Notes Configuration"
+   },
+   "options_share_label": {
+      "message": "Partager par défaut:"
+   },
+   "options_autosubmit_label": {
+      "message": "Soumettre le formulaire directement:"
+   }
+}

@@ -1,3 +1,6 @@
+Published to Chrome Web Store!
+https://chrome.google.com/webstore/detail/jhofgomlhjpkngejoockacmfphgkdbnp
+
 This extension adds a button to the toolbar which allows you to quickly add the current page you are reading to your Google Reader Notes. This can be useful to share it with friends or simply to read it later (the default behavior can be customised via options). Adding notes to Google Reader is now one click away with this extension if you want to automatically submit the note when you click the button (also customisable in options).
 
 If you use Google Reader, there is a function that allows you to share not only an article from your subscribed feeds but also any page you find on the Internet. To use it you have to create a link in your bookmarks.
