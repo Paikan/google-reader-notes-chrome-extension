@@ -3,13 +3,13 @@
       "message": "This extension adds a button to the toolbar which allows you to quickly add the current page you are reading to your Google Reader Notes. This can be useful to share it with friends or simply to read it later (the default behavior can be customised via options). Adding notes to Google Reader is now one click away with this extension if you want to automatically submit the note when you click the button (also customisable in options)."
    },
    "extension_name": {
-      "message": "ReaderNotes"
+      "message": "Reader Notes"
    },
    "browser_action_default_title": {
-      "message": "Add to Google ReaderNotes (Share, Read It Later...)"
+      "message": "Add to Google Reader Notes (Share, Read It Later...)"
    },
    "options_title": {
-      "message": "ReaderNotes Settings"
+      "message": "Reader Notes Settings"
    },
    "options_share_label": {
       "message": "Share by default:"

@@ -1,2 +1,6 @@
-2011-06-11 version 1.0:
+2011-06-12 version 1.0.1:
+ * Change name to Reader Notes to better be referenced in chrome extensions website
+ * Fix typo in README.txt
+
+2011-06-11 version 1.0.0:
  * First release

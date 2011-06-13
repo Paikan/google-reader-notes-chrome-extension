@@ -8,7 +8,7 @@ Once this extension is installed, you just have to select a text in a web page a
 
 I use it mainly as a Read It Later or Instapaper equivalent (so with sharing disable by default and auto submission activated) because I can stick with Google Reader which is already integrated in my daily workflow on all my devices and there is no need to sign up for an account on another service.
 
-It is quite similar to the Google Reader: Note in Reader (Unofficial) by did.hoarau but as it was broken, was missing some features to be useful for me and wasn't updated since 2009 I though it was time to release another one.
+It is quite similar to the Google Reader: Note in Reader (Unofficial) by did.hoarau but as it was broken, was missing some features to be useful for me and wasn't updated since 2009 I thought it was time to release another one.
 
 Feel free to send me feedbacks, ideas, bugs or translations for your language!
 
